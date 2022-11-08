@@ -1,24 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useSate } from "react";
+import Header from './components/Header';
+import Footer from './components/Footer';
+import About from './components/About';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
+  const [pageCurrent, pageSet] = useSate('About')
+
+  const pageSelect = () => {
+    if (pageCurrent === 'About') {
+      return <About />
+    }
+    if (pageCurrent === 'Contact') {
+      return <Contact />
+    }
+    if (pageCurrent === 'Portfolio') {
+      return <Portfolio />
+    }
+  }
+
+  const pageChange = (page) => pageSet(page);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <header>
+      <Header pageCurrent={pageCurrent} pageChange={pageChange}/>
+    </header>
+
+    <main>
+      {pageSelect()}
+    </main>
+
+    <footer>
+      <Footer />
+    </footer>
+    </>
   );
 }
 
