@@ -11,7 +11,7 @@ function Header({pageCurrent, pageChange}) {
                     >About</a>
                     <a href='#contact' onClick={() => pageChange('Contact')}
                     >Contact</a>
-                    <a href='#'
+                    <a href='www.linkedin.com/in/joseph-a-wright-14362iw4e5tu'
                     >Resume</a>
                     <a href='#portfolio' onClick={() => pageChange('Portfolio')}
                     >Portfolio</a>
@@ -19,7 +19,7 @@ function Header({pageCurrent, pageChange}) {
             </div>
             
         </header>
-    )
+    );
 }
 
 export default Header;
