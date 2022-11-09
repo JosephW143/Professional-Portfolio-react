@@ -17,7 +17,7 @@ function Header() {
                             >Contact</a>
                         </li>
                         <li className="list-inline-item">
-                            <a href='www.linkedin.com/in/joseph-a-wright-14362iw4e5tu'
+                            <a href='https://drive.google.com/file/d/1fFiEJagXnJOup0eXvbZtrajtkSb3xAUg/view?usp=share_link'
                             >Resume</a>
                         </li>
                         <li className="list-inline-item">

@@ -2,7 +2,7 @@ import React from "react";
 
 function Portfolio () {
     return (
-        <div className="flex">
+        <div className="flex" id="portfolio">
         <div className="centerBox">
             <h2 className="sectionTitle" id="projects">
                 Projects
