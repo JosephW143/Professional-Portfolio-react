@@ -1,13 +1,10 @@
 import React from "react";
 
 function Portfolio () {
-    return (
-        <div className="flex" id="portfolio">
-        <div className="centerBox">
-            <h2 className="sectionTitle" id="projects">
-                Projects
-            </h2>
-            <section className="centerPiece">
+    return (    
+    <div className="flex" id="portfolio">
+        <div className="projectBox">
+            <section className="container">
                 <a href="https://josephw143.github.io/run-buddy/">
                     <img src="./images/run-buddy.jpg" alt="screen shot of run buddy website" />
                     <div className="projectTitle">
@@ -16,8 +13,14 @@ function Portfolio () {
                 </a>
             </section>
 
-        <div className="buffer">
-            <div className="spacer"></div>
+            <section className="container">
+                <a href="https://guarded-ocean-81781.herokuapp.com/">
+                    <img src="/images/pizza-hunt.jpg" alt="screen shot of readme generator github" />
+                    <div className="projectTitle">
+                        <h3>Pizza Hunt</h3>
+                    </div>
+                </a>
+            </section>
         </div>
 
         <div className="projectBox">
@@ -59,20 +62,7 @@ function Portfolio () {
                 </a>
             </section>
         </div>
-        <div className="projectBox">
-            <section className="container">
-                <a href="https://guarded-ocean-81781.herokuapp.com/">
-                    <img src="/images/pizza-hunt.jpg" alt="screen shot of readme generator github" />
-                    <div className="projectTitle">
-                        <h3>Pizza Hunt</h3>
-                    </div>
-                </a>
-            </section>
-        </div>
     </div>
-    </div>
-    
-
     );
 }
 
