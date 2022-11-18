@@ -1,4 +1,5 @@
 import React from "react";
+import me from '../../img/joseph.JPG';
 
 function About () {
     return (
@@ -6,7 +7,7 @@ function About () {
             <div className="container">
                 <div className="row">
                     <div className="col-6 text-left">
-                        <img src="./images/joseph.JPG" alt="A photo of Joseph Wright" />
+                        <img src={me} alt="A photo of Joseph Wright" />
                     </div>
                 </div>
             </div>
