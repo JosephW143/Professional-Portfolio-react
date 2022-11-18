@@ -12,7 +12,7 @@ More exciting updates to this portfolio to come!
 * JavaScript
 
 ## Site screenshot 
-![screenshot of portfolio website](./public/images/website-sc.jpg)
+![screenshot of portfolio website](./src/img/website-sc.jpg)
 
 ## link to deployed site
 https://josephw143.github.io/Professional-Portfolio-react/
