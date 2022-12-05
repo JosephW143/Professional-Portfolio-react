@@ -1,4 +1,8 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*:root {
   --mainColor: rgba(204, 204, 255, 0.75);
   --secondaryColor: rgba(204, 238, 255, 0.75);
 }
@@ -248,4 +252,4 @@ footer ul li a {
 footer ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
-}
+} */
