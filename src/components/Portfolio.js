@@ -26,7 +26,7 @@ function Portfolio () {
                                 alt="ape club website"
                                 className="object-cover object-center absolute w-full h-full"
                             />
-                            <div className="relative bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
+                            <div className="relative border-slate-600 border-4 bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
                                 <h3 className="title-font mb-1">Ape Club</h3>
                                 <h4 className="title-font mb-3">MERN stack app</h4>
                             </div>
@@ -42,7 +42,7 @@ function Portfolio () {
                                 alt="pizza hunt website"
                                 className="object-cover object-center absolute w-full h-full"
                             />
-                            <div className="relative bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
+                            <div className="relative border-slate-600 border-4 bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
                                 <h3 className="title-font mb-1">Pizza Hunt</h3>
                                 <h4 className="title-font mb-3">Full Stack</h4>
                             </div>
@@ -58,9 +58,9 @@ function Portfolio () {
                                 alt="movie music magic website"
                                 className="object-cover object-center absolute w-full h-full"
                             />
-                            <div className="relative bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
+                            <div className="relative border-slate-600 border-4 bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
                                 <h3 className="title-font mb-1">Movie Music Magic</h3>
-                                <h4 className="title-font mb-3">MERN stack app</h4>
+                                <h4 className="title-font mb-3">Font End</h4>
                             </div>
                         </div>
                     </a>
@@ -74,9 +74,9 @@ function Portfolio () {
                                 alt="dog park website"
                                 className="object-cover object-center absolute w-full h-full"
                             />
-                            <div className="relative bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
+                            <div className="relative border-slate-600 border-4 bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
                                 <h3 className="title-font mb-1">The Dog Park</h3>
-                                <h4 className="title-font mb-3">MERN stack app</h4>
+                                <h4 className="title-font mb-3">Full Stack</h4>
                             </div>
                         </div>
                     </a>
@@ -87,12 +87,12 @@ function Portfolio () {
                         <div className="flex relative">
                             <img
                                 src={run}
-                                alt="ape club website"
+                                alt="run buddy website"
                                 className="object-cover object-center absolute w-full h-full"
                             />
-                            <div className="relative bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
+                            <div className="relative border-slate-600 border-4 bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
                                 <h3 className="title-font mb-1">Run Buddy</h3>
-                                <h4 className="title-font mb-3">MERN stack app</h4>
+                                <h4 className="title-font mb-3">Front End</h4>
                             </div>
                         </div>
                     </a>
@@ -103,12 +103,12 @@ function Portfolio () {
                         <div className="flex relative">
                             <img
                                 src={readme}
-                                alt="ape club website"
+                                alt="readme generator github"
                                 className="object-cover object-center absolute w-full h-full"
                             />
-                            <div className="relative bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
+                            <div className="relative border-slate-600 border-4 bg-slate-500 px-8 py-10 z-10 w-full opacity-0 hover:opacity-100">
                                 <h3 className="title-font mb-1">Professional README Generator</h3>
-                                <h4 className="title-font mb-3">MERN stack app</h4>
+                                <h4 className="title-font mb-3">Back End command line app</h4>
                             </div>
                         </div>
                     </a>
