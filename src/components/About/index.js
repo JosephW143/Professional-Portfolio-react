@@ -3,24 +3,19 @@ import me from '../../img/joseph.JPG';
 
 function About () {
     return (
-        <section className="aboutMe" id="about">
-            <div className="container">
-                <div className="row">
-                    <div className="col-6 text-left">
-                        <img src={me} alt="A photo of Joseph Wright" />
-                    </div>
+        <section id="about">
+            <div className="container flex mx-auto px-10 py-20 md:flex-row flex-col items-center">
+                <div className="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <h2 className="title-font sm:text-4xl text-3xl mb-4 border-b border-black">About Me</h2>
+                    <p className="leading-relaxed mb-8 border-8 border-double rounded-md border-black">
+                    Full-stack web developer leveraging customer service background to build a more human user experience on the web. Recently earned a certificate in full-stack development from the The University of Central Florida, with newly developed skills in HTML, CSS, JavaScript, React.js, and responsive web design. Known as an innovative problem solver passionate about developing apps, focusing on mobile-first design and development. With each project, my aim is to best engage my audience for an impactful user experience while also furthering my skills. I applied aspects of UX and agile development in a recent project. I worked on a team of six to develop a single-page MERN app that helps gym rats find new workouts to try out as well as save their favorites to their own personal account. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
+                    </p>
+                </div>
+                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                    <img className="object-center object-cover border-4 rounded-3xl border-black" src={me} alt="A photo of Joseph Wright" />
                 </div>
             </div>
-            <div className="container">
-                <div className="row">
-                    <div className="col-6 text-right" id="aboutTxt">
-                        <p>
-                            I am a up and coming developer who is very eager to work in the industry. At the UCF full stack developer Boot Camp I have leaned many langagues and technologies including HTML5, CSS, JavaScript, jQuery, MySQL, Express.js, and Node.js to name a few. Here are a few samples of my work. You can checkout the rest of my works at my GitHub that's linked at the bottom of the page. There you can also find my other contact information. Thank you for visiting my portfolio!
-                        </p>
-                    </div>
-                </div>
-            </div>
-    </section>
+        </section>
     );
 }
 

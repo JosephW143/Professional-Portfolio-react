@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return (
-        <header className="md:sticky bg-stone-200 top-0">
+        <header className="md:sticky bg-slate-200 top-0 z-10">
             <div className="flex flex-wrap mx-auto items-center container">
                 <h1 className="title-font font-large mb-4 md:mb-0">Joseph Wright</h1>
 

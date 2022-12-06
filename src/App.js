@@ -8,7 +8,7 @@ import Portfolio from './components/Portfolio';
 
 export default function App() {
   return (
-  <main>
+  <main className="bg-slate-500 font-mono">
     <Header />
     <About />
     <Portfolio />
