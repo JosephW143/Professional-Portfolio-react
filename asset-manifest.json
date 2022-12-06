@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/Professional-Portfolio-react/static/css/main.7989d941.css",
-    "main.js": "/Professional-Portfolio-react/static/js/main.228e8513.js",
+    "main.css": "/Professional-Portfolio-react/static/css/main.494a11c0.css",
+    "main.js": "/Professional-Portfolio-react/static/js/main.6f96676b.js",
     "static/js/787.1ed0c42c.chunk.js": "/Professional-Portfolio-react/static/js/787.1ed0c42c.chunk.js",
+    "static/media/joseph.JPG": "/Professional-Portfolio-react/static/media/joseph.cb2bfae0320e3a654778.JPG",
+    "static/media/mmm.jpg": "/Professional-Portfolio-react/static/media/mmm.0aaadb98ff9e1bf00a99.jpg",
+    "static/media/run-buddy.jpg": "/Professional-Portfolio-react/static/media/run-buddy.28c219a017b53ca4e1c5.jpg",
+    "static/media/readme-gen.jpg": "/Professional-Portfolio-react/static/media/readme-gen.af96394aba00d866fde6.jpg",
+    "static/media/dog-park.jpg": "/Professional-Portfolio-react/static/media/dog-park.a685fe0f9b5850029daa.jpg",
+    "static/media/pizza-hunt.jpg": "/Professional-Portfolio-react/static/media/pizza-hunt.0a89657bb6b308bee2d3.jpg",
+    "static/media/apeClub.jpg": "/Professional-Portfolio-react/static/media/apeClub.ef7dd96dacdd0b0279b1.jpg",
     "index.html": "/Professional-Portfolio-react/index.html",
-    "main.7989d941.css.map": "/Professional-Portfolio-react/static/css/main.7989d941.css.map",
-    "main.228e8513.js.map": "/Professional-Portfolio-react/static/js/main.228e8513.js.map",
+    "main.494a11c0.css.map": "/Professional-Portfolio-react/static/css/main.494a11c0.css.map",
+    "main.6f96676b.js.map": "/Professional-Portfolio-react/static/js/main.6f96676b.js.map",
     "787.1ed0c42c.chunk.js.map": "/Professional-Portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7989d941.css",
-    "static/js/main.228e8513.js"
+    "static/css/main.494a11c0.css",
+    "static/js/main.6f96676b.js"
   ]
 }
