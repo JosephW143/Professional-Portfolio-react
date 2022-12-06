@@ -13,7 +13,7 @@ function Header() {
                         <a href='#contact' className="mr-5"
                         >Contact
                         </a>
-                        <a href='https://drive.google.com/file/d/1fFiEJagXnJOup0eXvbZtrajtkSb3xAUg/view?usp=share_ank' className="mr-5"
+                        <a href='https://docs.google.com/document/d/1KXas9Rav2MdlqBUNe08ixiIpp9GIZWw2AUg3Of8DRxM/edit?usp=sharing' className="mr-5"
                         >Resume
                         </a>
                         <a href='#portfolio' className="mr-5"
