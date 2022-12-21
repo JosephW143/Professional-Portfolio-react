@@ -13,7 +13,6 @@ export default function App() {
     <About />
     <Portfolio />
     <Contact />
-    <Footer />
   </main>
   );
 }
