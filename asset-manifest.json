@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Professional-Portfolio-react/static/css/main.494a11c0.css",
-    "main.js": "/Professional-Portfolio-react/static/js/main.37b154bd.js",
+    "main.css": "/Professional-Portfolio-react/static/css/main.f328ca59.css",
+    "main.js": "/Professional-Portfolio-react/static/js/main.a565d3e0.js",
     "static/js/787.1ed0c42c.chunk.js": "/Professional-Portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/joseph.JPG": "/Professional-Portfolio-react/static/media/joseph.cb2bfae0320e3a654778.JPG",
     "static/media/mmm.jpg": "/Professional-Portfolio-react/static/media/mmm.0aaadb98ff9e1bf00a99.jpg",
@@ -11,12 +11,12 @@
     "static/media/pizza-hunt.jpg": "/Professional-Portfolio-react/static/media/pizza-hunt.0a89657bb6b308bee2d3.jpg",
     "static/media/apeClub.jpg": "/Professional-Portfolio-react/static/media/apeClub.ef7dd96dacdd0b0279b1.jpg",
     "index.html": "/Professional-Portfolio-react/index.html",
-    "main.494a11c0.css.map": "/Professional-Portfolio-react/static/css/main.494a11c0.css.map",
-    "main.37b154bd.js.map": "/Professional-Portfolio-react/static/js/main.37b154bd.js.map",
+    "main.f328ca59.css.map": "/Professional-Portfolio-react/static/css/main.f328ca59.css.map",
+    "main.a565d3e0.js.map": "/Professional-Portfolio-react/static/js/main.a565d3e0.js.map",
     "787.1ed0c42c.chunk.js.map": "/Professional-Portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.494a11c0.css",
-    "static/js/main.37b154bd.js"
+    "static/css/main.f328ca59.css",
+    "static/js/main.a565d3e0.js"
   ]
 }
