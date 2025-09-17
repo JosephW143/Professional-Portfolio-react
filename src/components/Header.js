@@ -1,28 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Header() {
+export default function Header() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
-        <header className="md:sticky bg-slate-200 top-0 z-10">
-            <div className="flex flex-wrap mx-auto items-center container p-5 md:flex-row">
-                <h1 className="title-font font-large mb-4 md:mb-0">Joseph Wright</h1>
+        <header className="md:sticky top-0 z-10 bg-white shadow-md">
+            <div className="flex justify-between items-center container mx-auto p-5">
+                <h1 className="title-font font-bold text-2xl">Joseph Wright</h1>
+                
+                {/* Navigation Button */}
+                <button
+                    onClick={toggleMenu}
+                    className="flex flex-col justify-center items-center w-8 h-8 space-y-1 focus:outline-none"
+                    aria-label="Toggle navigation menu"
+                >
+                    <span className={`block w-6 h-0.5 bg-gray-800 transition-transform duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+                    <span className={`block w-6 h-0.5 bg-gray-800 transition-opacity duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
+                    <span className={`block w-6 h-0.5 bg-gray-800 transition-transform duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+                </button>
+            </div>
 
-                <nav className="flex flex-wrap justify-center items-center text-base md:mr-auto md:ml-5 md:pl-5">
-                        <a href='#about' className="mr-5"
-                        >About
-                        </a>
-                        <a href='#contact' className="mr-5"
-                        >Contact
-                        </a>
-                        <a href='https://docs.google.com/document/d/1KXas9Rav2MdlqBUNe08ixiIpp9GIZWw2AUg3Of8DRxM/edit?usp=sharing' className="mr-5"
-                        >Resume
-                        </a>
-                        <a href='#portfolio' className="mr-5"
-                        >Portfolio
-                        </a>
-                </nav>
-            </div>     
+            {/* Navigation Menu */}
+            <nav className={`absolute top-full right-0 w-full md:w-1/4 bg-white shadow-lg transition-all duration-300 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+                <div className="container mx-auto p-5">
+                    <ul className="flex flex-col space-y-4">
+                        <li><a href="#about" className="text-gray-800 hover:text-blue-600 transition-colors duration-300">About</a></li>
+                        <li><a href="#projects" className="text-gray-800 hover:text-blue-600 transition-colors duration-300">Projects</a></li>
+                        <li><a href="#skills" className="text-gray-800 hover:text-blue-600 transition-colors duration-300">Skills</a></li>
+                        <li><a href="#contact" className="text-gray-800 hover:text-blue-600 transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
     );
 }
-
-export default Header;
