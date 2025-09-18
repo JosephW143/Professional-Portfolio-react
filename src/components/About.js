@@ -1,6 +1,5 @@
 import React from "react";
-import me from '../img/joseph.JPG';
-import blob from '../svg/blob.svg';
+import blob from "../svg/blob.svg";
 
 function About () {
     return (
@@ -12,15 +11,18 @@ function About () {
                 backgroundAttachment: 'fixed',
             }}
         >
-            <div className="container flex mx-auto px-10 py-20 md:flex-row flex-col items-center">
-                <div className="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                    <h2 className="title-font sm:text-7xl text-3xl mb-4 border-b-4 border-black">&lt;Hello World!&gt;</h2>
-                    <p className="leading-relaxed mb-8 border-8 border-double rounded-md border-black p-3 bg-white">
-                    Full-stack web developer leveraging customer service background to build a more human user experience on the web. Recently earned a certificate in full-stack development from The University of Central Florida, with newly developed skills in HTML, CSS, JavaScript, React.js, and responsive web design. Known as an innovative problem solver passionate about developing apps, focusing on mobile-first design and development. With each project, my aim is to best engage my audience for an impactful user experience while also furthering my skills. I applied aspects of UX and agile development in a recent project. I worked on a team of six to develop a single-page MERN app that helps gym rats find new workouts to try out as well as save their favorites to their own personal account. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
+            <div className="container relative mx-auto min-h-screen px-4 overflow-hidden">
+                <div className="absolute top-4 left-2 md:left-4 md:w-1/2 w-11/12 lg:pr-24 md:pr-16 pt-24 flex flex-col md:items-start md:text-left items-center text-center">
+                    <h2 className="title-font sm:text-7xl text-3xl mb-4 border-b-4 border-black">&lt;Hello World!/&gt;</h2>
+                    <p className="leading-relaxed mb-8 p-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img className="object-center object-cover border-4 rounded-3xl border-black" src={me} alt="A photo of Joseph Wright" />
+                <div className="absolute bottom-1 right-2 md:right-1 md:w-1/2 w-11/12 lg:max-w-lg flex flex-col md:items-end md:text-right items-center text-center">
+                    <h2 className="title-font sm:text-7xl text-3xl mb-4 border-b-4 border-black">&lt;Hello World!/&gt;</h2>
+                    <p className="leading-relaxed mb-8 p-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
                 </div>
             </div>
         </section>
