@@ -44,8 +44,6 @@ function About () {
                         With 3 years of on the job development experience, I have honed my skills in web development creating dynamic and engaging user experiences for the real world. 
                         Known as an innovative problem solver passionate about developing apps, focusing on mobile-first design and development. 
                         With each project, my aim is to best engage my audience for an impactful user experience while also furthering my skills. 
-                        I applied aspects of UX and agile development in a recent project. 
-                        I worked on a team of six to develop a single-page MERN app that helps gym rats find new workouts to try out as well as save their favorites to their own personal account. 
                         I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web.
                         </p>
                     </div>
