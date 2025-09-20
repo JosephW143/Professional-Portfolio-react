@@ -13,7 +13,7 @@ function About () {
                     <h1 className="title-font sm:text-7xl text-3xl mb-4 ">
                         <span className="bg-gradient-to-r from-[#AFA2FF] to-[#262675] bg-clip-text text-transparent tracking-tighter">Hi, I'm Joseph</span>
                     </h1>
-                    <p className="leading-relaxed mb-8 p-3">
+                    <p className="leading-relaxed mb-8 p-3 h-24 lg:h-14">
                        <span className="text-white"><Typer texts={[
                          "Crafting vibrant, user-friendly websites that bring ideas to life with a touch of creativity and a lot of code",
                          "Full-stack developer passionate about creating engaging user experiences",
