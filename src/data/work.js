@@ -1,20 +1,21 @@
-import apeClub from "../img/apeClub.jpg";
 import me from "../img/joseph.JPG";
+import pandaways from "../img/pandaway.png";
+import readme from "../img/readme-gen.jpg";
 
 const work = [
     {
         id: 1,
-        title: "Ape Club",
-        img: apeClub,
-        alt: "ape club website",
-        href: "https://mysterious-fjord-50002.herokuapp.com/"
+        title: "Pandaways",
+        img: pandaways,
+        alt: "pandaways website",
+        href: "https://pandaways.com/"
     },
     {
         id: 2,
-        title: "Test site",
-        img: me,
-        alt: "test site",
-        href: "https://x.com"
+        title: "README Generator",
+        img: readme,
+        alt: "README generator",
+        href: "https://github.com/JosephW143/Professional-README-Generator"
     }
 ];
 
