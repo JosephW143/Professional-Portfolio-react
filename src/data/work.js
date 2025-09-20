@@ -1,6 +1,6 @@
 import me from "../img/joseph.JPG";
 import pandaways from "../img/pandaway.png";
-import readme from "../img/readme-gen.jpg";
+import bowwow from "../img/bowwow.png";
 
 const work = [
     {
@@ -12,10 +12,10 @@ const work = [
     },
     {
         id: 2,
-        title: "README Generator",
-        img: readme,
-        alt: "README generator",
-        href: "https://github.com/JosephW143/Professional-README-Generator"
+        title: "Bow Wow Barn Pet Salon",
+        img: bowwow,
+        alt: "BowWow website",
+        href: "https://bowwowpetsalon.com/"
     }
 ];
 
