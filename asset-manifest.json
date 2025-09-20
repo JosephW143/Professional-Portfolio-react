@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/Professional-Portfolio-react/static/css/main.f328ca59.css",
-    "main.js": "/Professional-Portfolio-react/static/js/main.a565d3e0.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Professional-Portfolio-react/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/Professional-Portfolio-react/static/css/main.4e3631ae.css",
+    "main.js": "/Professional-Portfolio-react/static/js/main.11f7bf3c.js",
+    "static/js/453.ad7768ec.chunk.js": "/Professional-Portfolio-react/static/js/453.ad7768ec.chunk.js",
     "static/media/joseph.JPG": "/Professional-Portfolio-react/static/media/joseph.cb2bfae0320e3a654778.JPG",
-    "static/media/mmm.jpg": "/Professional-Portfolio-react/static/media/mmm.0aaadb98ff9e1bf00a99.jpg",
-    "static/media/run-buddy.jpg": "/Professional-Portfolio-react/static/media/run-buddy.28c219a017b53ca4e1c5.jpg",
-    "static/media/readme-gen.jpg": "/Professional-Portfolio-react/static/media/readme-gen.af96394aba00d866fde6.jpg",
-    "static/media/dog-park.jpg": "/Professional-Portfolio-react/static/media/dog-park.a685fe0f9b5850029daa.jpg",
-    "static/media/pizza-hunt.jpg": "/Professional-Portfolio-react/static/media/pizza-hunt.0a89657bb6b308bee2d3.jpg",
-    "static/media/apeClub.jpg": "/Professional-Portfolio-react/static/media/apeClub.ef7dd96dacdd0b0279b1.jpg",
+    "static/media/pandaway.png": "/Professional-Portfolio-react/static/media/pandaway.b2f2037189b3fb7d4056.png",
+    "static/media/bowwow.png": "/Professional-Portfolio-react/static/media/bowwow.1faebf610a92108db5ec.png",
     "index.html": "/Professional-Portfolio-react/index.html",
-    "main.f328ca59.css.map": "/Professional-Portfolio-react/static/css/main.f328ca59.css.map",
-    "main.a565d3e0.js.map": "/Professional-Portfolio-react/static/js/main.a565d3e0.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Professional-Portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
+    "main.4e3631ae.css.map": "/Professional-Portfolio-react/static/css/main.4e3631ae.css.map",
+    "main.11f7bf3c.js.map": "/Professional-Portfolio-react/static/js/main.11f7bf3c.js.map",
+    "453.ad7768ec.chunk.js.map": "/Professional-Portfolio-react/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f328ca59.css",
-    "static/js/main.a565d3e0.js"
+    "static/css/main.4e3631ae.css",
+    "static/js/main.11f7bf3c.js"
   ]
 }
