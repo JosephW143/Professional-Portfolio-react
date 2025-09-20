@@ -8,7 +8,7 @@ function About () {
     return (
         <section id="hero"
         >
-            <div className="container flex mx-auto px-10 pt-32 pb-52 md:flex-row flex-col items-center">
+            <div className="container flex mx-auto px-10 py-52 md:flex-row flex-col items-center">
                 <div className="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center animate-fade-in-left">
                     <h1 className="title-font sm:text-7xl text-3xl mb-4 ">
                         <span className="bg-gradient-to-r from-[#AFA2FF] to-[#262675] bg-clip-text text-transparent tracking-tighter">Hi, I'm Joseph</span>
@@ -31,22 +31,22 @@ function About () {
                         </a>
                     </div>
                     <div className="flex justify-center mt-4">
-                        <a href="#contact" className="relative overflow-hidden inline-flex text-white bg-[#b587c9] shadow-md shadow-[#b587c9] border-0 py-2 px-2 focus:outline-none rounded-full text-lg group">
+                        <a href="#contact" className="relative overflow-hidden inline-flex items-center justify-center text-white bg-[#b587c9] shadow-sm shadow-[#b587c9] border-0 w-12 h-12 focus:outline-none rounded-full text-lg group">
                             <span className="relative z-10">
-                                <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                                <FontAwesomeIcon icon={faLinkedin} size="lg" />
                             </span>
-                            <div className="absolute inset-0 bg-[#5941A9] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></div>
+                            <div className="absolute inset-0 rounded-full bg-[#5941A9] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></div>
                         </a>
-                        <a href="#contact" className="relative overflow-hidden inline-flex text-white bg-[#b587c9] shadow-md shadow-[#b587c9] border-0 ml-4 py-2 px-2 focus:outline-none rounded-full text-lg group">
+                        <a href="#contact" className="relative overflow-hidden inline-flex items-center justify-center text-white bg-[#b587c9] shadow-sm shadow-[#b587c9] border-0 ml-4 w-12 h-12 focus:outline-none rounded-full text-lg group">
                             <span className="relative z-10">
-                                <FontAwesomeIcon icon={faGithub} size="2x" />
+                                <FontAwesomeIcon icon={faGithub} size="lg" />
                             </span>
-                            <div className="absolute inset-0 bg-[#5941A9] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></div>
+                            <div className="absolute inset-0 rounded-full bg-[#5941A9] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></div>
                         </a>
                     </div>
                 </div>
                 <div 
-                    className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 animate-fade-in-right"
+                    className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 animate-fade-in-right lg:ml-24 md:ml-12 ml-0"
                 >
                     <img className="object-center object-cover border-4 rounded-3xl bg-gradient-to-r from-[#AFA2FF] to-[#262675]" src={me} alt="A photo of Joseph Wright" />
                 </div>
