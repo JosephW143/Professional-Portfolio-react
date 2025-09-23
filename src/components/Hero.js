@@ -10,10 +10,10 @@ function About () {
         >
             <div className="container flex mx-auto px-10 py-52 md:flex-row flex-col items-center">
                 <div className="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center animate-fade-in-left">
-                    <h1 className="title-font sm:text-7xl text-3xl mb-4 ">
+                    <h1 className="title-font sm:text-7xl text-4xl mb-4 ">
                         <span className="bg-gradient-to-r from-[#AFA2FF] to-[#262675] bg-clip-text text-transparent tracking-tighter">Hi, I'm Joseph</span>
                     </h1>
-                    <p className="leading-relaxed mb-8 p-3 h-28 lg:h-14">
+                    <p className="leading-relaxed mb-8 p-3 h-36 lg:h-14 text-lg">
                        <span className="text-white"><Typer texts={[
                          "Crafting vibrant, user-friendly websites that bring ideas to life with a touch of creativity and a lot of code",
                          "Full-stack developer passionate about creating engaging user experiences",
@@ -31,13 +31,13 @@ function About () {
                         </a>
                     </div>
                     <div className="flex justify-center mt-4">
-                        <a href="#contact" className="relative overflow-hidden inline-flex items-center justify-center text-white bg-[#b587c9] shadow-sm shadow-[#b587c9] border-0 w-12 h-12 focus:outline-none rounded-full text-lg group">
+                        <a href="https://www.linkedin.com/in/joseph-a-wright-14362iw4e5tu/" className="relative overflow-hidden inline-flex items-center justify-center text-white bg-[#b587c9] shadow-sm shadow-[#b587c9] border-0 w-12 h-12 focus:outline-none rounded-full text-lg group">
                             <span className="relative z-10">
                                 <FontAwesomeIcon icon={faLinkedin} size="lg" />
                             </span>
                             <div className="absolute inset-0 rounded-full bg-[#5941A9] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></div>
                         </a>
-                        <a href="#contact" className="relative overflow-hidden inline-flex items-center justify-center text-white bg-[#b587c9] shadow-sm shadow-[#b587c9] border-0 ml-4 w-12 h-12 focus:outline-none rounded-full text-lg group">
+                        <a href="https://github.com/JosephW143" className="relative overflow-hidden inline-flex items-center justify-center text-white bg-[#b587c9] shadow-sm shadow-[#b587c9] border-0 ml-4 w-12 h-12 focus:outline-none rounded-full text-lg group">
                             <span className="relative z-10">
                                 <FontAwesomeIcon icon={faGithub} size="lg" />
                             </span>

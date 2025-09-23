@@ -76,7 +76,7 @@ function Contact () {
             </div>
             <div className="flex flex-col w-full md:w-1/2 md:ml-auto">
               <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-lg mb-12 md:mb-0 p-8 shadow-lg h-full flex flex-col justify-center">
-                <h2 className="title-font text-3xl mb-6 text-center">
+                <h2 className="title-font text-3xl mb-6 text-center absolute top-0 left-0 right-0 pt-10">
                   <span className="bg-gradient-to-r from-[#AFA2FF] to-[#262675] bg-clip-text text-transparent">Let's Connect!</span>
                 </h2>
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mt-6">
