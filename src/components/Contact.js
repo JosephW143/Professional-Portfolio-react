@@ -79,7 +79,7 @@ function Contact () {
                 <h2 className="title-font text-3xl mb-6 text-center absolute top-0 left-0 right-0 pt-10">
                   <span className="bg-gradient-to-r from-[#AFA2FF] to-[#262675] bg-clip-text text-transparent">Let's Connect!</span>
                 </h2>
-                <div className="grid md:grid-cols-2 grid-cols-1 gap-4 mt-6">
+                <div className="grid md:grid-cols-2 grid-cols-1 gap-4 md:mt-6 mt-12">
                   <div>
                     <a href="https://linkedin.com/in/joseph-a-wright-14362iw4e5tu/" className="py-2 flex justify-center text-white">
                       <FontAwesomeIcon icon={faLinkedin} size="4x" />
